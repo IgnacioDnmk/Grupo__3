@@ -13,5 +13,11 @@ header {
     width: 100%;
     padding: 40px;
     color: white;
+    text-align-last: center;
+    background: #112d4e;
 }
 
+nav ul {
+    list-style: none;
+    background: 20px;
+}
