@@ -1,0 +1,17 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: borde-box;
+
+ }
+body {
+    font-family: 'century Gothic',sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 40px;
+    color: white;
+}
+
