@@ -19,5 +19,21 @@ header {
 
 nav ul {
     list-style: none;
-    background: 20px;
+    background: #164884;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #112d4e;
+
 }
