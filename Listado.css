@@ -1,0 +1,22 @@
+body  {
+    font-family: 'roboto';
+    background: #4568DC;
+    background: -webkit-linear-gradient( to right, #588fe2, #4568DC);
+    background: linear-gradient( to right, #588fe2, #4568DC);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    border: 1px dashes red;
+    width: 40px;
+    float: left;
+}
