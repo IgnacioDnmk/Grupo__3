@@ -17,6 +17,6 @@ body  {
 
 .logo{
     border: 1px dashes red;
-    width: 40px;
-    float: left;
+    width: 100px;
+    float: right;
 }
