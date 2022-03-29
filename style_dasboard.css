@@ -7,19 +7,26 @@
  }
 body {
     font-family: 'century Gothic',sans-serif;
+    background: #eaecec;
 }
 
+
 header {
-    width: 100%;
-    padding: 40px;
+    background-image:url(https://www.santiagotours.org/uploads/fotos/original/foto_4738_.jpg);
+    /*width: 70%;*/
+    padding: 150px;
     color: white;
     text-align-last: center;
-    background: #112d4e;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
 }
 
 nav ul {
     list-style: none;
-    background: #164884;
+    background: #7c96af;
 }
 
 nav ul li {
@@ -34,17 +41,20 @@ ul li a {
 }
 
 nav ul li:hover {
-    background: #112d4e;
+    background: #eff0f1;
 
 }
 /*Estilos de las cajas */
 h2 {
-    background-color: #6e8ba3;
+    background-color: #fff5d2;
+    font-family: 'century Gothic',sans-serif;
+    text-align-last: center;
     display: inline-block;
     padding: 150px;
-    margin: 100px;
+    margin: 130px;
     box-sizing: border-box;
     text-align: center;
     border-radius: 30px;
-    border: 5px solid green;
+
+    
 }
