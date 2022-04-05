@@ -7,6 +7,7 @@ body  {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contenedor{
@@ -19,4 +20,19 @@ body  {
     border: 1px dashes red;
     width: 100px;
     float: right;
+
+}
+
+header {
+    background-image:url(https://www.santiagotours.org/uploads/fotos/original/foto_4738_.jpg);
+    width: 100%;
+    height: 700px;
+    color: white;
+    text-align-last: center;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    position:absolute
 }
