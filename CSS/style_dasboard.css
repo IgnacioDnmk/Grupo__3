@@ -3,11 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ }
 
+ :root {
+     --primary: #000000;
+     --light: #ffffff;
+     --grey: #efefef;
  }
 body {
+    overflow: hidden;
     font-family: 'century Gothic',sans-serif;
-    background: #eaecec;
+    font-weight: 300;
+    color: var(--primary)
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container logo {
+    
 }
 
 
@@ -52,6 +67,12 @@ ul li a {
 nav ul li:hover {
     background: #eff0f1;
 
+}
+
+/* Nuevos estilos con bootsrap*/
+
+.stat {
+    border-right: 1px solid var(--grey);
 }
 /*Estilos de las cajas */
 h2 {
