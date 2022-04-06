@@ -17,16 +17,23 @@ body {
     color: var(--primary)
 }
 
+.bg-prymary { background-color: var(--primary) !important;}
+
 #sidebar-container {
     min-height: 100vh;
 }
 
-#sidebar-container logo {
+#sidebar-container .logo {
+    padding: .875rem 1.25rem;
     
 }
 
+#sidebar-container .Menu {
 
-header {
+    width: 18rem;
+
+}
+/*header {
     background-image:url(https://www.santiagotours.org/uploads/fotos/original/foto_4738_.jpg);
     width: 100%;
     height: 600px;
@@ -37,7 +44,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-attachment: fixed;
-    position: relative;
+    position: relative;*/
 }
 
 .wave {
