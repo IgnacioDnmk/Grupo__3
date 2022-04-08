@@ -9,7 +9,7 @@
 }
 
 body{
-    font-size: 'Roboto' ,'sanz-serif';
+    font-family: 'Roboto' ,'sanz-serif';
     font-size: 1.1rem;
     font-weight: 300;
     background-color: var(--color-grey); /* color de fondo*/
@@ -57,5 +57,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+
+}
+
+@media (max-width:575.98){
+ .p-6{
+     padding: 2rem;
+ }
+ .contact-box{
+    padding: 0;
+ }
+ .width-100{
+     width: 100%;
+ }
+}
+@media(max-width: 1200px){
+    .register-bg{
+        min-height: 50vh;
+    }
 
 }
