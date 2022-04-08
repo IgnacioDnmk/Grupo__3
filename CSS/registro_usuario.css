@@ -1,144 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+:root {
+    /* colores que se pueden poner en todo el archivo */
+    --color-dark: #15181f;
+    --color-dark-x:#2d343f;
+    --color-dark-xx:#1f232b;  
+    --color-light: #ffffff;
+    --color-grey:#f5f6f8;
+
 }
 
-header {
-    
-    width: 100%;
-    height:10px;
-    background: rgba(54, 54, 54, 0.781);
-}
-.container-header{
-    width: 100%;
-    max-width: 1200px;
-}
-.logo-title{
-    display: flex;
-}
-.logo-title img{
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
+body{
+    font-size: 'Roboto' ,'sanz-serif';
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey); /* color de fondo*/
+    color: var(--color-light); /*color de la letra*/
+    letter-spacing: .05rem; /* espaciado entre las letras*/
 }
 
 
+/*CLASES DE BOOTSTRAP*/
+.bg-light{
+    background-color: var(--color-light)!important; /* para que sobreescriban a las clases que ya se definieron en bootstrap*/
+}
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+.p-6 { /* clase para añadir padding a todos los lados */
+    padding: 4rem 7rem ;
+}
 
+.contact-box {
+    padding: 3rem;
+}
 
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
 
+}
+.btn-outline-dark{
+    border:2px solid var(--color-dark-xx);
 
-body  {
-    font-family: 'roboto';
-    background: url(imagenes/secure.jpg);
+}
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border:2px solid var(--color-dark-xx);
+    border-radius:.2rem ;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url(https://www.santiagotours.org/uploads/fotos/original/foto_4738_.jpg);
     background-size: cover;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h1{
-    text-align: center;
-    font-weight: 700;
-}
-.form{
-    width: 700px;
-    height: 600px;
-    background: rgba(196, 196, 196, 0.932);
-    padding: 20px ;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 30px;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-
-form .grupo{
-    position: relative;
-    margin: 45px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 
 }
-input{
-    background: none;
-    color: #c6c6c6;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid var(--colorTexto);
-}
-
-input:focus{
-    outline: none;
-    color:#5e5d5d;
-
-}
-label{
-    color: var(--colorTexto);
-    font-size: 16px;
-    position: absolute;
-    left: 5px;
-    top: 10px;
-    transition: 0.5s ease-in-out all;
-    pointer-events: none;
-
-}
-
-input:focus~label,
-input:valid~label{
-    top: -14px;
-    font-size: 12xp;
-    color: #ffffff;
-}  
-
-.barra{
-    position: relative;
-    display: block;
-    width: 100%;
-}
-.barra::before{
-    content: "";
-    height: 2px;
-    width: 0%;
-    bottom: 0;
-    position: absolute;
-    background: -webkit-linear-gradient( to right, #B06AB3, #4568DC);
-    transition: 0.3s ease width;
-    left: 0;
-
-}
-
-input:focus~.barra::before{
-    width: 100%;
-}
-
-button{
-    font-family: 'roboto';
-    background: #4568DC;
-    background: -webkit-linear-gradient( to right, #4a7bb3, #4568DC);
-    background: linear-gradient(to right, #202020, #4568DC);
-    border: none;
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    color: #fff;
-    height: 40px;
-    font-size: 16px;
-    cursor: pointer;
-}
-/*
-<header>
-    <div class="container-header">
-        <div class="logo-title">
-         <img src="Imagenes/iluminati.png" alt="">
-        </div>
-     <label class="icon-menu"></label>
-    </div>
-     
- 
-</header>*/
