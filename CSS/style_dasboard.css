@@ -1,0 +1,68 @@
+
+ :root {
+     --primary: #000000;
+     --light: #ffffff;
+     --grey: #efefef;
+ }
+body {
+    overflow: hidden;
+    font-family: 'Muli',sans-serif;
+    font-weight: 300;
+    color: var(--primary)
+}
+
+/* Todos los link no tengan la linea debajo*/
+a:hover {
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.bg-primary { background-color: var(--primary) !important;}
+.bg-light {background-color: var(--light)!important;}
+.bg-mix {background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);}
+.bg-grey {background-color: var(--grey) !important;}
+
+/* Botones sin bordes*/
+.btn {
+    border: 0;
+}
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: .875rem 2rem;  
+}
+
+#sidebar-container .menu {
+    width: 15rem;
+}
+
+.btn-search {
+    right:5px;
+}
+
+.avatar {
+    max-width: 50px;
+}
+
+#content {
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
