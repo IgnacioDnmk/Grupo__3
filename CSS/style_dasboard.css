@@ -11,12 +11,13 @@ body {
     color: var(--primary)
 }
 
-/* Todos los link no tengan la lidea debajo*/
+/* Todos los link no tengan la linea debajo*/
 a:hover {
     text-decoration: none;
 }
 
 .bg-prymary { background-color: var(--primary) !important;}
+.bg-light {background-color: var(--light)!important;}
 
 #sidebar-container {
     min-height: 100vh;
@@ -31,6 +32,6 @@ a:hover {
 }
 
 .btn-search {
-    right:0;
+    right:5px;
 
 }
