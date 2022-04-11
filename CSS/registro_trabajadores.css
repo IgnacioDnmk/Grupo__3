@@ -15,6 +15,8 @@ body{
     background-color: #000000; /* color de fondo franjas*/
     color: var(--color-light); /*color de la letra*/
     letter-spacing: .05rem; /* espaciado entre las letras*/
+    box-sizing: border-box;
+    
 }
 
 
@@ -29,9 +31,14 @@ body{
     padding: 4rem 7rem ;
 }
 
-.contact-box { /* caja completa */
-    height: 100%;
-    margin:0px ;
+
+
+/* caja completa */
+.contact-box { 
+    height: 100vh;
+    box-sizing: border-box;
+    
+
 }
 
 .btn {
@@ -61,7 +68,7 @@ body{
 
 }
 
-@media (max-width:575.98){ /**/
+@media (max-width:575.98){ /* Medidad apropiadas para android*/
  .p-6{
      padding: 2rem;
  }
