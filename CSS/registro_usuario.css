@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto' ,'sanz-serif';
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: var(--color-grey); /* color de fondo*/
+    background-color: #000000; /* color de fondo franjas*/
     color: var(--color-light); /*color de la letra*/
     letter-spacing: .05rem; /* espaciado entre las letras*/
 }
@@ -23,14 +23,15 @@ body{
     background-color: var(--color-light)!important; /* para que sobreescriban a las clases que ya se definieron en bootstrap*/
 }
 .bg-dark {
-    background-color: var(--color-dark)!important;
+    background-color: var(--color-dark)!important; /* color de el fondo completo incluyendo el fondo de registro*/
 }
 .p-6 { /* clase para añadir padding a todos los lados */
     padding: 4rem 7rem ;
 }
 
-.contact-box {
-    padding: 3rem;
+.contact-box { /* caja completa */
+    height: 100%;
+    margin:0px ;
 }
 
 .btn {
@@ -45,7 +46,7 @@ body{
 
 }
 
-.form-control {
+.form-control { /*campos de las cajas del formulario */
     background-color: var(--color-dark-xx);
     border:2px solid var(--color-dark-xx);
     border-radius:.2rem ;
@@ -60,7 +61,7 @@ body{
 
 }
 
-@media (max-width:575.98){
+@media (max-width:575.98){ /**/
  .p-6{
      padding: 2rem;
  }
