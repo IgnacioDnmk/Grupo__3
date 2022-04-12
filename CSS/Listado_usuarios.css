@@ -27,7 +27,7 @@ body {
 
 
 footer{
-  margin-top: 50px;
+  margin-top: 100px;
   margin-right:auto
 
 }
@@ -54,3 +54,4 @@ footer{
       text-transform: lowercase; /*capitalización texto*/
       font-family: Arial, Helvetica, sans-serif /*tipografía texto*/
     }
+
