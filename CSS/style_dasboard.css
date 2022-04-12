@@ -16,22 +16,53 @@ a:hover {
     text-decoration: none;
 }
 
-.bg-prymary { background-color: var(--primary) !important;}
+.menu a {
+    text-decoration: none;
+}
+
+.bg-primary { background-color: var(--primary) !important;}
 .bg-light {background-color: var(--light)!important;}
+.bg-mix {background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);}
+.bg-grey {background-color: var(--grey) !important;}
+
+/* Botones sin bordes*/
+.btn {
+    border: 0;
+}
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
 
 #sidebar-container {
     min-height: 100vh;
 }
 
 #sidebar-container .logo {
-    padding: .875rem 1.25rem;  
+    padding: .875rem 2rem;  
 }
 
 #sidebar-container .menu {
-    width: 18rem;
+    width: 15rem;
 }
 
 .btn-search {
     right:5px;
+}
 
+.avatar {
+    max-width: 50px;
+}
+
+#content {
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
 }
