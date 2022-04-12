@@ -12,10 +12,10 @@ body{
     font-family: 'Roboto' ,'sanz-serif';
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: #000000; /* color de fondo franjas*/
+    background-color: #ffffff; /* color de fondo franjas*/
     color: var(--color-light); /*color de la letra*/
     letter-spacing: .05rem; /* espaciado entre las letras*/
-    box-sizing: border-box;
+    
     
 }
 
@@ -25,7 +25,7 @@ body{
     background-color: var(--color-light)!important; /* para que sobreescriban a las clases que ya se definieron en bootstrap*/
 }
 .bg-dark {
-    background-color: var(--color-dark)!important; /* color de el fondo completo incluyendo el fondo de registro*/
+    background-color: #000000!important; /* color de el fondo completo incluyendo el fondo de registro*/
 }
 .p-6 { /* clase para añadir padding a todos los lados */
     padding: 4rem 7rem ;
@@ -35,9 +35,7 @@ body{
 
 /* caja completa */
 .contact-box { 
-    height: 100vh;
-    box-sizing: border-box;
-    
+    padding :1.5rem;
 
 }
 
