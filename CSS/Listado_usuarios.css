@@ -16,6 +16,7 @@ body {
 
 .table{
   margin-top: 30px;
+
 }
 
 
@@ -27,4 +28,19 @@ body {
 
 footer{
   margin-top: 50px;
+  margin-right:auto
+
 }
+
+  .boton {
+    border: 1px #111111; /*anchura, estilo y color borde*/
+    padding: 9px; /*espacio alrededor texto*/
+    background-color: #111111; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    margin:690px;
+    }
+
