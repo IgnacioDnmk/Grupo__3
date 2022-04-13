@@ -5,6 +5,16 @@ head{
 
 }
 
+h3 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: capitalize;
+}
+
+
+
 body {
   height: 100%;
   height: 400px;
