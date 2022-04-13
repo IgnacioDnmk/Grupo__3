@@ -34,7 +34,8 @@ background-size: cover;
 
 .table{
   margin-top: 50px;
-  color: #fdfdfd; /*color texto*/
+  color: #000000; /*color texto*/
+  background-color: #ffffff; /*color botón*/
 
 }
 
@@ -63,7 +64,7 @@ footer{
     margin:690px;
     }
 
-    .buto{
+    .but{
       border: 1px #111111; /*anchura, estilo y color borde*/
       padding: 3px; /*espacio alrededor texto*/
       background-color: #111111; /*color botón*/
