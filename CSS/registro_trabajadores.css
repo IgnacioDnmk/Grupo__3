@@ -25,7 +25,7 @@ body{
     background-color: var(--color-light)!important; /* para que sobreescriban a las clases que ya se definieron en bootstrap*/
 }
 .bg-dark {
-    background-color: #000000!important; /* color de el fondo completo incluyendo el fondo de registro*/
+    background-color: var(--color-dark-x); /* color de el fondo completo incluyendo el fondo de registro*/
 }
 .p-6 { /* clase para añadir padding a todos los lados */
     padding: 4rem 7rem ;
