@@ -54,6 +54,11 @@ a:hover {
 #sidebar-container {
     min-height: 100vh;
 }
+.container {
+    margin: 5px;
+    border : 1px solid var(--grey);
+
+}
 
 #sidebar-container .logo {
     padding: .875rem 2rem;  
