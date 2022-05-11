@@ -1,0 +1,4 @@
+
+$("#formulario_trabajadores").validate({
+    
+})
