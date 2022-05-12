@@ -1,18 +1,26 @@
 :root {
     /* colores que se pueden poner en todo el archivo */
     --color-dark: #15181f;
-    --color-dark-x:#2d343f;
+    --color-dark-x:#ffffff00;
     --color-dark-xx:#1f232b;  
     --color-light: #ffffff;
     --color-grey:#f5f6f8;
     
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
+    background-size: cover;
     font-family: 'Roboto' ,'sanz-serif';
     font-size: 1.1rem;
     font-weight: 300;
-    background-color: #ffffff; /* color de fondo franjas*/
+     /* color de fondo franjas*/
     color: var(--color-light); /*color de la letra*/
     letter-spacing: .05rem; /* espaciado entre las letras*/
     
@@ -34,10 +42,6 @@ body{
 
 
 /* caja completa */
-.contact-box { 
-    padding :1.5rem;
-
-}
 
 .btn {
     font-weight: 400;
@@ -51,20 +55,34 @@ body{
 
 }
 
+.glyphicon-pencil{
+    font-size: 35px;
+    color: white;
+    float: right;
+    margin-top:  20px;
+
+}
+.col-md-6{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0, 0, 0, 4);
+}
+
 .form-control { /*campos de las cajas del formulario */
-    background-color: var(--color-dark-xx);
-    border:2px solid var(--color-dark-xx);
-    border-radius:.2rem ;
-    padding: 1.5rem 1rem;
-}
-
-.register-bg {
-    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color: white;
 
 }
+
+
+
+
 
 @media (max-width:575.98){ /* Medidad apropiadas para android*/
  .p-6{
