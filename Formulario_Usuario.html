@@ -1,24 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="CSS/Formulario_Usuario.css">
-  <title>Formulario Registro</title>
-</head>
-<body>
-  <section class="form-register">
-    <h4>Formulario Registro</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-    <input class="botons" type="submit" value="Registrar">
-    <p><a href="Inicio_sesion.html">¿Ya tengo Cuenta?</a></p>
-  </section>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To Do List - Login</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/Formulario_Usuario.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  </head>
 
-</body>
+  <body>
+    <!-- Contenedor principal -->
+    <div class="container">
+      <div class="header-bar">
+        <h2>Formulario de Registro</h2>
+      </div>
+    
+      <div class="card-body">
+        <form method="POST" id="formRegistro">
+          <label>Nombre de Usuario</label>
+          <input type="text" name="username" maxlength="150" autocapitalize="none" autocomplete="username" autofocus>
+          
+          <label>Email</label>
+          <input type="text" name="email" autocapitalize="none" autocomplete="email" autofocus>
+
+          <label>Contraseña</label>
+          <input type="password" name="password1" id="password1" autocomplete="new-password">
+
+          <label>Confirmar Contraseña</label>
+          <input type="password" name="password2" autocomplete="new-password">
+          <input style="margin-top: 10px" class="button" type="submit" value="Registrar"/>
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="login.html">Login</a></p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/localization/messages_es.min.js"></script>
+    <script src="JS/Formulario_ususario_valida.js"></script>
+  </body>
 </html>
