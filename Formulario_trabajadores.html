@@ -19,46 +19,52 @@
 
   <body>
      
-        <div class="row no-gutters ">
+        
             <div class="col-xl  register-bg">
             
             </div>
 
             <div class="col-xl-7 col-lg-12 d-flex">
-                <div class="container align-self-center ">
-                    <h1 class="font-weight-bold mb-3">Registro de Trabajadores</h1> <!--font-weight-bold es para dejar en negrita lo escrito  y mb-3 para darle formato-->
+                <div class="container  ">
 
+
+                    <div class="header_form">
+                    <h1 class="font-weight-bold mb-3">Registro de Trabajadores</h1> <!--font-weight-bold es para dejar en negrita lo escrito  y mb-3 para darle formato-->
+                     </div>        
                     
                     <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
 
 
                     <form class="formulario_trabajadores">
+                            
                             <!--Nombre-->
-                        <div class="form-row mb-4  " id="nombre">
                             <div class="form-group col-md-6"> <!--barra del boton  se puede arreglar el tamaño de la columna-->
-                                <label class="font-weigth-bold">Nombre  </label><!-- El span con el text danger es para el asterisco dejarlo en rojo como si fuera obligatorio-->
+                                <label >Nombre  </label><!-- El span con el text danger es para el asterisco dejarlo en rojo como si fuera obligatorio-->
                                 <input type="text" class="form-control" placeholder="Ingrese su Nombre"> <!-- barra donde pide el nombre-->
                             </div>
+
                             <!--Apellido-->
                             <div class="form-group col-md-6" id="Apellido"> 
-                                <label class="font-weigth-bold">Apellido </label>
+                                <label >Apellido </label>
                                 <input type="text" class="form-control" placeholder="Ingrese su Apellido"> 
                             </div>
+
                             <!--Rut-->
                             <div class="form-group col-md-6" id="Rut"> 
-                                <label class="font-weigth-bold">Rut </label>
+                                <label >Rut </label>
                                 <input type="text" class="form-control" placeholder="Ingrese su Rut" maxlength="12"> 
                             </div>
-                        </div>
-                        <!--Correo-->
-                            <div class="form-group mb-3 col-md-6 " id="Email"> 
-                                <label class="font-weigth-bold">Email  </label>
+                        
+
+                            <!--Correo-->
+                            <div class="form-group col-md-6 " id="Email"> 
+                                <label >Email  </label>
                                 <input type="email" class="form-control" placeholder="Ingrese su Email"> 
                             </div>                      
                         
-                         <!--Botones de registra y cancelar-->
-                         <button type="submit" class="btn btn-primary width-100">Registrar </button> 
-                         <a href="Dashboard.html"><button type="button" class="btn btn-secondary width-100">Cancelar </button></a>
+                            <!--Botones de registra y cancelar-->
+                            <button type="submit" class="btn btn-primary width-100">Registrar </button> 
+                            <a href="Dashboard.html"><button type="button" class="btn btn-secondary width-100">Cancelar </button></a>
                              
                             
                     </form>
@@ -68,7 +74,7 @@
                 </div>
             </div>
           
-        </div>
+        
      
      <!-- Optional JavaScript; choose one of the two! -->
  
@@ -76,7 +82,7 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
-     <script src="js/form_tra_jquery.js"></script>
+     <script src="JS/Formulario_trabajadores.js"></script>
    
     </body>
 </html>
