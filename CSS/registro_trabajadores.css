@@ -12,80 +12,73 @@ body{
     background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
     font-family: 'Roboto' ,'sanz-serif';
     color: var(--color-light); /*color de la letra*/
-    padding-top: 50px;    
+    padding-top: 100px;    
+    padding-left: 600px;
     
 }
 
 .container{
 
-margin: auto;
-background-color: #243036;
+background-color: #ffffff71;
+justify-content: space-between;
 -webkit-box-shadow: 2px 2px 13px -4px rgb(243, 243, 243);
 box-shadow: 2px 2px 13px -4px rgb(248, 248, 248);
+border-radius: 5px 5px 0 0;
+padding: 10px;
 }
 
 .header_form {
-    display: flex;
+    
+    text-align: center;
     justify-content: space-between;
-    color: rgb(255, 255, 255);
-    padding: 10px;
+    color: rgb(255, 254, 254);
+    
     border-radius: 5px 5px 0 0;
-    background: #243036;
+    background: #000000;  
 }
 
-
-
-/*CLASES DE BOOTSTRAP*/
-.bg-light{
-    background-color: var(--color-light)!important; /* para que sobreescriban a las clases que ya se definieron en bootstrap*/
+.formulario_trabajadores{
+    padding:  10px;
+    box-shadow: -1px 1px 60px 10px rgb(102, 96, 151);
+    background: rgba(253, 253, 253, 0.397);
 }
-.bg-dark {
-    background-color: var(--color-dark-x); /* color de el fondo completo incluyendo el fondo de registro*/
+   
+p {
+    text-align: center;
+    color: #15181f;
 }
-.p-6 { /* clase para añadir padding a todos los lados */
-    padding: 4rem 7rem ;
-}
-
 
 
 /* caja completa */
 
 .btn {
     font-weight: 400;
-    padding: 1rem 2rem;
+    padding: 1rem 9rem;
     border-radius: 5rem;
     min-width: 10rem;
-
+    margin-top: 10px;
+    margin-right: 300px;
 }
+
 .btn-outline-dark{
     border:2px solid var(--color-dark-xx);
 
 }
 
-/*
-.glyphicon-pencil{
-    font-size: 35px;
-    color: white;
-    float: right;
-    margin-top:  20px;
 
-}*/
 
-.col-md-6{
-    margin-top: 80px;
-    box-shadow: -1px 1px 60px 10px black;
-    background: rgba(0, 0, 0, 4);
+.form-group.mb-3{
+    box-shadow: -1px 1px 60px 10px rgb(99, 91, 160);
+    background: black;
+    
 }
 
 .form-control { /*campos de las cajas del formulario */
     background: transparent;
-    border-radius: 0px;
-    border: 0px;
-    border-bottom: 1px solid white;
-    font-size: 18px;
-    margin-top: 15px;
-    height: 40px;
-    color: white;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(255, 253, 253);  /* color parte de abajo de los cuadros  */
+    font-size: 18px;   /* tamaño de la fuente */
+    color: var(--color-light);
 
 }
 

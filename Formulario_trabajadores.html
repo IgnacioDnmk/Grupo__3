@@ -32,40 +32,41 @@
                     <h1 class="font-weight-bold mb-3">Registro de Trabajadores</h1> <!--font-weight-bold es para dejar en negrita lo escrito  y mb-3 para darle formato-->
                      </div>        
                     
-                    <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
+                    <p class="text mb-4">Ingresa la siguiente información para registrarte.</p>
 
 
                     <form class="formulario_trabajadores">
                             
                             <!--Nombre-->
-                            <div class="form-group col-md-6"> <!--barra del boton  se puede arreglar el tamaño de la columna-->
+                            <div class="form-group mb-3"> <!--barra del boton  se puede arreglar el tamaño de la columna-->
                                 <label >Nombre  </label><!-- El span con el text danger es para el asterisco dejarlo en rojo como si fuera obligatorio-->
                                 <input type="text" class="form-control" placeholder="Ingrese su Nombre"> <!-- barra donde pide el nombre-->
                             </div>
 
                             <!--Apellido-->
-                            <div class="form-group col-md-6" id="Apellido"> 
+                            <div class="form-group mb-3" id="Apellido"> 
                                 <label >Apellido </label>
                                 <input type="text" class="form-control" placeholder="Ingrese su Apellido"> 
                             </div>
 
                             <!--Rut-->
-                            <div class="form-group col-md-6" id="Rut"> 
+                            <div class="form-group mb-3" id="Rut"> 
                                 <label >Rut </label>
                                 <input type="text" class="form-control" placeholder="Ingrese su Rut" maxlength="12"> 
                             </div>
                         
 
                             <!--Correo-->
-                            <div class="form-group col-md-6 " id="Email"> 
+                            <div class="form-group mb-3 " id="Email"> 
                                 <label >Email  </label>
                                 <input type="email" class="form-control" placeholder="Ingrese su Email"> 
                             </div>                      
                         
+                            <div class="btn ">
                             <!--Botones de registra y cancelar-->
                             <button type="submit" class="btn btn-primary width-100">Registrar </button> 
                             <a href="Dashboard.html"><button type="button" class="btn btn-secondary width-100">Cancelar </button></a>
-                             
+                            </div>
                             
                     </form>
                            
