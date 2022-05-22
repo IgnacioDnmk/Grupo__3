@@ -35,31 +35,31 @@
                     <p class="text mb-4">Ingresa la siguiente información para registrarte.</p>
 
 
-                    <form class="formulario_trabajadores">
+                    <form class="formulario_trabajadores" id="formTrabajador">
                             
                             <!--Nombre-->
-                            <div class="form-group mb-3"> <!--barra del boton  se puede arreglar el tamaño de la columna-->
-                                <label >Nombre  </label><!-- El span con el text danger es para el asterisco dejarlo en rojo como si fuera obligatorio-->
-                                <input type="text" class="form-control" placeholder="Ingrese su Nombre"> <!-- barra donde pide el nombre-->
+                            <div class="form-group mb-3"> 
+                                <label >Nombre  </label>
+                                <input type="text" name="nombre" class="form-control" placeholder="Ingrese su Nombre"> <!-- barra donde pide el nombre-->
                             </div>
 
                             <!--Apellido-->
                             <div class="form-group mb-3" id="Apellido"> 
                                 <label >Apellido </label>
-                                <input type="text" class="form-control" placeholder="Ingrese su Apellido"> 
+                                <input type="text" name="apellido" class="form-control" placeholder="Ingrese su Apellido"> 
                             </div>
 
                             <!--Rut-->
                             <div class="form-group mb-3" id="Rut"> 
                                 <label >Rut </label>
-                                <input type="text" class="form-control" placeholder="Ingrese su Rut" maxlength="12"> 
+                                <input type="text" name="rut" class="form-control" placeholder="Ingrese su Rut" > 
                             </div>
                         
 
                             <!--Correo-->
                             <div class="form-group mb-3 " id="Email"> 
                                 <label >Email  </label>
-                                <input type="email" class="form-control" placeholder="Ingrese su Email"> 
+                                <input type="email" name="email" class="form-control" placeholder="Ingrese su Email"> 
                             </div>                      
                         
                             <div class="btn ">
