@@ -8,24 +8,31 @@
     
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
+body{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
+    font-family: 'Roboto' ,'sanz-serif';
+    color: var(--color-light); /*color de la letra*/
+    padding-top: 50px;    
     
 }
 
-body{
-    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
-    background-size: cover;
-    font-family: 'Roboto' ,'sanz-serif';
-    font-size: 1.1rem;
-    font-weight: 300;
-     /* color de fondo franjas*/
-    color: var(--color-light); /*color de la letra*/
-    letter-spacing: .05rem; /* espaciado entre las letras*/
-    
-    
+.container{
+
+margin: auto;
+background-color: #243036;
+-webkit-box-shadow: 2px 2px 13px -4px rgb(243, 243, 243);
+box-shadow: 2px 2px 13px -4px rgb(248, 248, 248);
 }
+
+.header_form {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    background: #243036;
+}
+
 
 
 /*CLASES DE BOOTSTRAP*/
@@ -55,13 +62,15 @@ body{
 
 }
 
+/*
 .glyphicon-pencil{
     font-size: 35px;
     color: white;
     float: right;
     margin-top:  20px;
 
-}
+}*/
+
 .col-md-6{
     margin-top: 80px;
     box-shadow: -1px 1px 60px 10px black;
@@ -84,20 +93,9 @@ body{
 
 
 
-@media (max-width:575.98){ /* Medidad apropiadas para android*/
- .p-6{
-     padding: 2rem;
- }
- .contact-box{
-    padding: 0;
- }
- .width-100{
-     width: 100%;
- }
-}
-@media(max-width: 1200px){
-    .register-bg{
-        min-height: 50vh;
-    }
 
-}
+
+
+
+
+
