@@ -1,4 +1,4 @@
-html,
+
 
 head{
   margin-top: 30px;
@@ -17,9 +17,9 @@ h1 {
 
 body {
   height: 100%;
-  height: 400px;
+  height: 650px;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/604/587/817/cityscape-santiago-de-chile-skycrapers-city-wallpaper-preview.jpg");
-background-size: cover;
+  background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
 }
