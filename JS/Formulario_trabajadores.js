@@ -23,9 +23,11 @@ $("#formTrabajador").validate({
         }
       },
       messages: {
+        minlength: "Favor ingresar mas de 5 caracteres",
         nombre: "Favor ingresar el nombre de trabajador",
         apellido: "Favor ingresar el apellido del trabajador",
         rut: "Favor ingresar el run del trabajador",
-        email: "Favor ingresar el email"
+        email: "Favor ingresar el email",
+        minlength: "Favor ingresar mas de 5 caracteres"
       }
 });

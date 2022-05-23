@@ -8,13 +8,12 @@
     
 }
 
+
 body{
     background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/PAW6O2JIVBDFTC3C3B4ZAVMNGA.jpg); 
     font-family: 'Roboto' ,'sanz-serif';
     color: var(--color-light); /*color de la letra*/
-    padding-top: 100px;    
-    padding-left: 600px;
-    
+    height: auto;
 }
 
 .container{
@@ -41,6 +40,7 @@ padding: 10px;
     padding:  10px;
     box-shadow: -1px 1px 60px 10px rgb(102, 96, 151);
     background: rgba(253, 253, 253, 0.397);
+   
 }
    
 p {
@@ -57,7 +57,7 @@ p {
     border-radius: 5rem;
     min-width: 10rem;
     margin-top: 10px;
-    margin-right: 300px;
+    
 }
 
 .btn-outline-dark{
