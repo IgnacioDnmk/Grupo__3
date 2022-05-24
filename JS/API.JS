@@ -1,17 +1,17 @@
 
 
-$(document).ready(function () {
-    $("#enviar").click(function () {
+/*$(document).ready(function(){
+    $("#enviar").click(function(){
         $.get("https://api.covidtracking.com/v1/us/daily.json",
-            function (data) {
+            function(data){
                 $.each(data.date, function (i, item) {
-                    $("#date").append("<tr><td>" + item.states + "<tr><td>" + item.negative);
+                    $("#API").append("<tr><td>" +item.states+ "<tr><td>" + item.negative);
                 });
 
             });
     });
 
-})
+})*/
 
 
 
@@ -36,14 +36,18 @@ $.get(url, function(respuesta) {
 
 
 
-/*const url = "https://pokeapi.co/api/v2/pokemon/ditto"
+const url = "https://pokeapi.co/api/v2/pokemon/1"
 
 fetch(url)
-.then(response => response.jason)
+.then(response => response.json () )
 .then(data => {
+
+    let element = document.getElementById('elem')
+    element.innerHTML = data.name 
+
     console.log(data)
 })
-.catch(err=> console.log(err))*/
+.catch(err=> console.log(err))
 
 
 
