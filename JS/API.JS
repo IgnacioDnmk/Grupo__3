@@ -7,6 +7,9 @@ $.get(url, function(respuesta) {
 
     /*console.log(respuesta)*/
 
+    let API = respuesta
+
+    $("#API").text(API.nombre)
 
 
 }, "json")
