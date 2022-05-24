@@ -1,4 +1,13 @@
 
+$.validator.addMethod ("terminarPor",function(value,element,parametro) {
+
+  if(value.endsWith(parametro)){
+    return true;
+  }
+  return false;
+},"Debe terminar por {0}")
+
+
 $("#formTrabajador").validate({
       rules:{
         nombre: {
@@ -21,26 +30,27 @@ $("#formTrabajador").validate({
 
         email:{
         required: true,
-        email: true
+        email: true,
+        terminarPor:"duocuc.cl"
         }
       },
       messages: {
         nombre: {
-          required: "Campo obligatorio",
+          required: " *Campo obligatorio" ,
           minlength: "Ingrese un Minimo de 5 caracteres",
           maxlength: "Debe contener maximo 15 caracteres"
         },
         apellido: {
-          required: "Campo obligatorio",
+          required: " *Campo obligatorio",
           minlength: "Ingrese un Minimo de 5 caracteres",
           maxlength: "Debe contener maximo 15 caracteres"
         },
         rut: {
-          required: "Campo obligatorio"
+          required: " *Campo obligatorio"
         },
         email: {
-          required: "Campo obligatorio",
-          email: "Formato requerido Ej: reg@trabajador.cl"
+          required: " *Campo obligatorio",
+          email: "ingresar un formato valido"
         },
       }
 });
