@@ -7,7 +7,7 @@
 }
 
  :root {
-     --primary: #000000;
+     --primary: #343a40;
      --light: #ffffff;
      --grey: #efefef;   
  }
@@ -65,12 +65,13 @@ a:hover {
     background-color: var(--primary);
 }
 
+
 .btn-primary:hover {
     background-color: var(--primary);
 }
 
 #sidebar-container {
-    min-height: 100vh;
+    width: 180 px;
 }
 .container {
     border : 1px solid var(--grey);
@@ -102,4 +103,26 @@ a:hover {
 
 .stat {
     border-right: 1px solid var(--grey);
+}
+
+/*Clases para usar en JavaScript*/
+
+.body_move{
+    margin-left: 250px;
+}
+
+.menu__side_move{
+    width: 250px;
+}
+
+
+@media screen and (max-width: 760px){
+    .body_move{
+        margin-left: 0px;
+    }
+
+    .menu__side_move{
+        width: 80px;
+        left: -80px;
+    }
 }
