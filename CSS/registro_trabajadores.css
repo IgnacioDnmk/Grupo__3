@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto' ,'sanz-serif';
     color: var(--color-light); /*color de la letra*/
     height: auto;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     
 }

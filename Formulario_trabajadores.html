@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
@@ -38,34 +39,35 @@
                     <form class="formulario_trabajadores" id="formTrabajador">
                             
                             <!--Nombre-->
-                            <div class="form-group mb-3" id="Nombre"> 
+                            <div class="form-group mb-3" id="nombre"> 
                                 <label >Nombre  </label>
-                                <input class="form-control" type="text" name="nombre"  placeholder="Ingrese su Nombre"> <!-- barra donde pide el nombre-->
+                                <input class="form-control" type="text" name="nombre"  placeholder="Ingrese su Nombre" > <!-- barra donde pide el nombre-->
                             </div>
 
                             <!--Apellido-->
-                            <div class="form-group mb-3" id="Apellido"> 
+                            <div class="form-group mb-3" id="apellido"> 
                                 <label >Apellido </label>
-                                <input class="form-control" type="text" name="apellido"  placeholder="Ingrese su Apellido"> 
+                                <input class="form-control" type="text" name="apellido"  placeholder="Ingrese su Apellido"  >  
                             </div>
 
                             <!--Rut-->
-                            <div class="form-group mb-3" id="Rut"> 
+                            <div class="form-group mb-3" id="rut"> 
                                 <label >Rut </label>
-                                <input class="form-control" type="text" name="rut" placeholder="Ingrese su Rut" > 
+                                <input class="form-control" type="text" name="rut" placeholder="Ingrese su Rut" maxlength="12" > 
                             </div>
                         
 
                             <!--Correo-->
-                            <div class="form-group mb-3 " id="Email"> 
+                            <div class="form-group mb-3 " id="email"> 
                                 <label >Email  </label>
                                 <input class="form-control" type="email" name="email"  placeholder="Ingrese su Email"> 
                             </div>                      
                         
-                            <div class="btn ">
+                            
                             <!--Botones de registra y cancelar-->
+                            <div class="btn ">
                             <button type="submit" class="btn btn-primary ">Registrar </button> 
-                            <a href="Dashboard.html"><button type="button" class="btn btn-secondary ">Cancelar </button></a>
+                            <button type="submit" class="btn btn-secondary ">Cancelar </button>
                             </div>
                             
                     </form>
