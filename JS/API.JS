@@ -1,24 +1,38 @@
 
 
+$(document).ready(function () {
+    $("#enviar").click(function () {
+        $.get("https://api.covidtracking.com/v1/us/daily.json",
+            function (data) {
+                $.each(data.date, function (i, item) {
+                    $("#date").append("<tr><td>" + item.states + "<tr><td>" + item.negative);
+                });
+
+            });
+    });
+
+})
 
 
-let url = "https://pokeapi.co/api/v2/"
+
+
+/*let url = "https://pokeapi.co/api/v2/ability/"
 $.get(url, function(respuesta) {
 
-    /*console.log(respuesta)*/
+    /*console.log(respuesta)
 
     let API = respuesta
 
     $("#API").text(API.nombre)
 
 
-}, "json")
-    /*respuesta.forEach(function(item) {
-        console.log(item)*/
+}, "json")*/
+/*respuesta.forEach(function(item) {
+    console.log(item)*/
 
-   /* let = respuesta
-    $get*/
- 
+/* let = respuesta
+ $get*/
+
 
 
 
