@@ -36,14 +36,18 @@ $.get(url, function(respuesta) {
 
 
 
-const url = "https://pokeapi.co/api/v2/pokemon/1"
+const url = "https://pokeapi.co/api/v2/pokemon/4"
 
 fetch(url)
 .then(response => response.json () )
 .then(data => {
 
-    let element = document.getElementById('elem')
-    element.innerHTML = data.name 
+    let element = document.getElementById('nombrepokemon')
+    element.innerHTML = "<tr><td>"+data.name+"</td><td>"
+    "</td><td><img src='"+ data.sprites.front_default+"'></td></tr>"
+
+    
+           
 
     console.log(data)
 })
