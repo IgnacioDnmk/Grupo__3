@@ -4,12 +4,13 @@ $("#formTrabajador").validate({
         nombre: {
           required: true,
           minlength: 5,
-          maxlength: 20
+          maxlength: 15
         },
 
         apellido: {
-          required: true
-
+          required: true,
+          minlength: 5,
+          maxlength: 15
         },
 
         rut:{
@@ -22,12 +23,4 @@ $("#formTrabajador").validate({
         email: true
         }
       },
-      messages: {
-        minlength: "Favor ingresar mas de 5 caracteres",
-        nombre: "Favor ingresar el nombre de trabajador",
-        apellido: "Favor ingresar el apellido del trabajador",
-        rut: "Favor ingresar el run del trabajador",
-        email: "Favor ingresar el email",
-        minlength: "Favor ingresar mas de 5 caracteres"
-      }
 });
